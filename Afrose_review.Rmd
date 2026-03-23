@@ -1,0 +1,23 @@
+---
+title: "Afrose_review"
+author: "Shamima Afrose"
+date: "2026-03-23"
+output: html_document
+
+# Overall review
+A strong understanding of data processing and visualization, with a well-structured workflow, is evident. 
+
+# Data acquisition
+Using relative file paths is a good choice and improves portability. 
+
+# Data inspection
+This part was straightforward and enough to pre-assess the data. However, the inspected data info, like rows/variables/size, could be mentioned in the comment. Obviously, it's not mandatory. 
+
+# Data processing 
+The way workflow has been generated is understandable, reproducible, and easy to explain. However, for the filtering step using filter(Group == c(...)), %in% could be used to select multiple groups properly.
+
+# Data Visualization
+The way a detailed view of Homozygous, Heterozygous, and Missing data per chromosome, side-by-side for Maize and Teosinte, has been plotted is praiseworthy.
+
+# End of review
+
